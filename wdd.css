@@ -4,6 +4,13 @@ img
     height:100px;
 }
 
+div.header
+{
+    text-align:center;
+}
+
+
+
 body
 {
     background-color:white;
