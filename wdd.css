@@ -1,8 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+body
+{
+    font-family: 'Trade Winds' ;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.header{
+     background-image: url("Yosemite_nat_park_valley_view.png");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     height:300px;
+
+
+}
+.username{
+    color:white;
+    mar
+}
+
 img
 {
     width:100px;
     height:100px;
 }
+
+
 
 div.header
 {
@@ -14,4 +38,56 @@ div.header
 body
 {
     background-color:white;
+}
+
+.day-box
+{
+    margin:5px;
+    padding:5px;
+    border-style: groove;
+    background-color:green;
+    font-size: 20px;
+}
+
+.day-box div{
+    background-color:lime;
+}
+
+
+.day-box.COMPLETED
+{
+    border-style:inset;
+    
+    
+    background-color:brown;
+}
+.day-box.COMPLETED div{
+
+    background-color:burlywood;
+    background-image: url("leaf-illustration-clip-art.png");
+    background-repeat: no-repeat;
+
+}
+
+.reading
+{
+    border-style:outset;
+    padding:5px;
+}
+.nav a
+{
+    margin:10px;
+    border-style:ridge;
+    padding:5px;
+    background-color:white;
+    font-size: 30px;
+}
+div.header span.username
+{   
+    font-size:75px;
+    padding: 40px;
+}
+.person_info
+{
+    margin:20px;
 }
