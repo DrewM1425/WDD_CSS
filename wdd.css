@@ -3,7 +3,6 @@
 body
 {
     font-family: 'Trade Winds' ;
-   
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -12,9 +11,8 @@ div.header{
      background-size: 100% 100%;
      background-repeat: no-repeat;
      height:300px;
-
-
 }
+
 .username{
     color:white;
     mar
@@ -26,18 +24,14 @@ img
     height:100px;
 }
 
-
-
 div.header
 {
     text-align:center;
 }
 
-
-
 body
 {
-    background-color:white;
+    background-color:cornflower blue;
 }
 
 .day-box
@@ -57,16 +51,12 @@ body
 .day-box.COMPLETED
 {
     border-style:inset;
-    
-    
     background-color:brown;
 }
 .day-box.COMPLETED div{
-
     background-color:burlywood;
-    background-image: url("leaf-illustration-clip-art.png");
-    background-repeat: no-repeat;
-
+    /*background-image: url("leaf-illustration-clip-art.png");*/
+    /*background-repeat: no-repeat;*/
 }
 
 .reading
@@ -91,3 +81,74 @@ div.header span.username
 {
     margin:20px;
 }
+
+.day-box.COMPLETED div.day{
+    background-image: url("leaf-illustration-clip-art.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.day-box div:hover {
+    filter: brightness(75%);
+}
+
+/*--------------------------For classmates Page.----------------------------*/
+table {
+
+    border-style:ridge;
+    border-color:beige;
+    margin:5px;
+    padding:5px;
+    background-color:burlywood
+}
+
+tr td{
+    color:black;
+    border-style:ridge;
+    padding;
+    text-align:center;
+    font-size:larger
+}
+
+tr th {
+
+    color: blue; 
+}
+
+tr td img
+{
+    width:200px;
+    height:200px; 
+}
+/*--------------------------------------------------------*/
+
+/*----------------------------For my account page----------------------------*/
+
+form{
+    text-align:center;
+    font-size: 30px;
+    width: 100%;
+}
+label{
+    display:block;
+    text-align:left;
+    --float:left;
+    padding:10px;
+}
+
+input[type=text] {
+  display:inline;
+  width: 50%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align:center; 
+  font-size:16px;
+  --float: center;
+}
+
+input[name=person_first_name] {
+  color:red; 
+  width: 50%;
+}
+/*---------------------------------------------*/
