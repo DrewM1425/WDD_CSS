@@ -66,11 +66,14 @@ body
 }
 .nav a
 {
-    margin:10px;
+    margin:0.5%;
     border-style:ridge;
-    padding:5px;
+    padding:0.3%;
     background-color:white;
     font-size: 30px;
+}
+.nav a:hover {
+    filter: brightness(75%);
 }
 div.header span.username
 {   
@@ -152,3 +155,11 @@ input[name=person_first_name] {
   width: 50%;
 }
 /*---------------------------------------------*/
+
+/*--------------seating------------*/
+svg{
+  width:80%;
+  height:60%;
+  float:right;
+  margin:40px; 
+}
