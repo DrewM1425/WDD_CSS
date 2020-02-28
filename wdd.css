@@ -150,8 +150,8 @@ input[type=text] {
   --float: center;
 }
 
-input[name=person_first_name] {
-  color:red; 
+input[name=person_first_name] { /*This tag is really just here in case we want to mess with the indevidual text boxes*/
+  /*color:red;*/
   width: 50%;
 }
 /*---------------------------------------------*/
