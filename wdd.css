@@ -196,9 +196,9 @@ Source: https://www.w3schools.com/css/css3_animations.asp
 @keyframes scurry
 {
   0% {right:0%; opacity: 1;}
-  25% {right:25%;}
-  50% {right: 50%;}
-  75% {right:75%;}
-  100% {right: 98%;}
+  25% {right:25%; opacity: 1;}
+  50% {right: 50%; opacity: 1;}
+  75% {right:75%; opacity: 1;}
+  100% {right: 98%; opacity: 1;}
 }
 
