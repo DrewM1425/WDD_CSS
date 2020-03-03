@@ -183,6 +183,7 @@ div#special1.special{
   top:20px;
   animation-name: scurry;
   animation-direction: alternate;
+  animation-iteration: 2;
   animation-duration: 4s;
   
 }
