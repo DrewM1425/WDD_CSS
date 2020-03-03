@@ -183,8 +183,6 @@ div#special1.special{
   top:20px;
   animation-name: scurry;
   animation-duration: 4s;
-  animation-iteration-count: 2;
-  animation-direction: alternate;
   
 }
 
@@ -213,13 +211,12 @@ Source: https://www.w3schools.com/css/css3_animations.asp
   25% {right:25%;}
   50% {right: 50%;}
   75% {right:75%}
-  100% {left: 20px; background-image:url ("Squirrel-Profile_Right.png")}
+  100% {left: 20px; background-image:url ("Squirrel-Profile_Right.png"); opacity: 0;}
 }
 
 /*Acorn disappears as if eaten*/
 @keyframes eaten
 {
-    0% {visibility:visible;}
-    100% {visibility: hidden;}
+    100% {display: none;}
 }
 
