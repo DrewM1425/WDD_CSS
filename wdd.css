@@ -208,15 +208,17 @@ Source: https://www.w3schools.com/css/css3_animations.asp
 @keyframes scurry
 {
   0% {right:30px; bottom:50px;}
-  25% {right:25%;}
-  50% {right: 50%;}
-  75% {right:75%}
+  25% {right:25%; opacity: 1;}
+  50% {right: 50%; opacity: 1;}
+  75% {right:75%; opacity: 1;}
+  99% {opacity: 1;}
   100% {left: 20px; background-image:url ("Squirrel-Profile_Right.png"); opacity: 0;}
 }
 
 /*Acorn disappears as if eaten*/
 @keyframes eaten
 {
-    100% {display: none;}
+    99% {opacity: 1;}
+    100% {opacity: 0;}
 }
 
