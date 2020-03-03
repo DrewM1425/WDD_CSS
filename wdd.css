@@ -189,21 +189,6 @@ div#special1.special{
   
 }
 
-/*---------Acorn-------------*/
-div#special2.special
-{
-  background-image: url("Acorn.png");
-  background-repeat: no-repeat;
-  position: absolute;
-  z-index: 1000;
-  height: 75px;
-  width: 75px;
-  left:20px;
-  top:40px;
-  animation-name: eaten;
-  animation-delay: 2s;
-}
-
 
 /*---------Squirrel Animation----------
 Source: https://www.w3schools.com/css/css3_animations.asp
@@ -215,12 +200,5 @@ Source: https://www.w3schools.com/css/css3_animations.asp
   50% {right: 50%;}
   75% {right:75%;}
   100% {right: 98%;}
-}
-
-/*Acorn disappears as if eaten*/
-@keyframes eaten
-{
-    99% {opacity: 1;}
-    100% {opacity: 0;}
 }
 
